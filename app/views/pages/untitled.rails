@@ -1,0 +1,137 @@
+<div id="background-experience">
+  <div class="name">Rebecca Ellice Hsiao<h3>Web Developer & Software Engineer</h3></div>
+  <div class="row">
+      <div class="content">
+        <div id="me-experience"></div>
+        <div class="info">
+          <p>Professionally Adventurous: clients from the bar to the spa to the lab</p>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+  	<h2>work experience</h2>
+    <div class="block">
+      <p><strong>Freelance: Full Stack Software Engineer</strong></p>
+      <p>2017</p>
+      <p>Worked with clients to make prototype for their desired websites</p>
+      <p>Used Heroku, Ruby on Rails, Javascript, SQL, HTML/CSS, AJAX and DOM, libraries and gems, PostgreSQL, and basic knowledge of User Design</p>
+      <p>Discussed the need for web maintenance, possibility for scaling, and the possible need for data structures later on with clients.</p>
+      <p></p>
+    </div>
+    <div class="block">
+      <p><strong>Personal Projects: Team Lead & Lead Manager</strong></p>
+      <p>2017</p>
+      <p>Used Trello, a Team Schedule Organizer, to create daily goals and meetings</p>
+      <p>Manages the team’s Github merges to master branch</p>
+      <p>Debug codes/write in comment lines to assist workflow by lessening talking</p>
+      <p>Facilitate communication between front-end and back-end, while making sure variable names are consistent and well-named</p>
+      <p>Implemented MVC models and relational schemas, created domain name, and launched web on serve</p>
+    </div>
+    <div class="block">
+      <p><strong>HTML/CSS Tutor: Private Tutor</strong></p>
+      <p>2017</p>
+      <p>Topics: div, form, hover, indentation, headers, importing libraries, id, classes etc.</p>
+      <p>Extra: post/get concepts, beginner tips for choosing CSS colors, and tips on workflow for working with backend</p>
+    </div>
+    <div class="block">
+      <p><strong>Eatsa: Food and Consumer Science Researcher</strong></p>
+      <p>2016 - 2017</p>
+      <p>Research on consumer preference by surveying individuals and analyze the results with team members.</p>
+      <p>Research on food composition and run labs and analyze results using Matlab and Macro</p>
+      <p>Presented team progress regularly to the company</p>
+      <p>Initiated ideas to other teams (successfully initiated new Company T-Shirt design)</p>
+    </div>
+    <div class="block">
+      <p><strong>Sushi Cal: Chef and Assistant Manager</strong></p>
+      <p>2012 - 2013</p>
+      <p>Prepare most of the sushi</p>
+      <p>Initiated development of new recipes</p>
+      <p>Train incoming chefs</p>
+      <p>Manage daily in-house complications</p>
+    </div>
+    <div class="block">
+      <p><strong>High School Tutor: Private Tutor</strong></p>
+      <p>Tutor in high school Algebra, Chemistry, and Biology</p>
+    </div>
+    <div class="block">
+      <p><strong>Guitar Lessons: Private Teacher</strong></p>
+      <p>2010-2013</p>
+      <p>Teach electric guitar and acoustic guitar for 30 minutes lessons each</p>
+    </div>
+  </div>
+  <div class="row">
+  	<h2>education experience</h2>
+  	<div class="block">
+      <p><strong>Berkeley Classes</strong></p>
+      <p>2013 - 2017</p>
+      <p>CS Major’s intro to computer science</p>
+      <p>Programming for Engineers</p>
+      <p>Haas Business School: Leadership</p>
+      <p>Haas Business School: Accounting</p>
+      <p>Intro to Nuclear Engineering</p>
+      <p>Economics</p>
+      <p>Macro Economics</p>
+      <p>Organic Chemistry</p>
+      <p>Biology</p>
+      <p>Food Science</p>
+      <p>Physics</p>
+      <p>Multivariable Algebra</p>
+      <p>Psycology</p>
+    </div>
+  	<div class="block">
+      <p><strong>UC Berkeley: Research in Nutritional Science and Toxicology</strong></p>
+      <p>2015 - 2017</p>
+      <p>Research in new neurotransmitters</p>
+      <p>Use a cryomicrotome to cut mice tissues into micrometer slices onto slides </p>
+      <p>Stain the slides using various antibodies</p>
+      <p>View the slides under microscope to check for staining results</p>
+      <p>Cell culture</p>
+    </div>	      	
+    <div class="block">
+      <p><strong>Counseling Session at UC Berkeley</strong></p>
+      <p>2017</p>
+      <p>Use counseling techniques learned from lectures and apply it to real life situation</p>
+      <p>Assist other students with nutritional concerns via counseling</p>
+    </div>	      	
+    <div class="block">
+      <p><strong>Nutrition Related Education Session at UC Berkeley</strong></p>
+      <p>2017</p>
+      <p>Run Needs Assessments, assessing the needs, resources, availability of targeted audience.</p>
+      <p>Create lesson plans based on the Needs Assessments with concrete goals and SMART objectives</p>
+      <p>Teach the targeted audience using visual, interactive resources to enhance learning</p>
+    </div>	      	
+    <div class="block">
+      <p><strong>UC Berkeley: Nutritional Science and Toxicology Systematic Review Research</strong></p>
+      <p>Research nutritional related topics without existing systematic review</p>
+      <p>Search through all top scientific database for clinical trials relating to topic of research</p>
+      <p>Write a systematic review practice guidelines after analyzing all relevant papers from the search result</p>
+    </div>	      	
+    <div class="block">
+      <p><strong>UC Berkeley menu design at Dining Commons</strong></p>
+      <p>2016 - 2017</p>
+      <p>Assess student behaviors and available food sources to design healthy and sustainable food menu items</p>
+      <p>Work with chefs at Crossroads CalDining to design new menu item</p>
+    </div>
+  </div>
+  <div class="row">
+  	<h2>volunteer experience</h2>
+  	<div class="block">
+      <p><strong>St. Luke’s Campus: CPMC</strong></p>
+      <p>2015 - 2016</p>
+      <p>Help dietitians in the hospital with paper works</p>
+      <p>Pass out and explain menus to various types of patients</p>
+    </div>
+  	<div class="block">
+      <p><strong>Palos Verdes Regional Symphony Orchestra</strong></p>
+      <p>Spend over 800 hours playing violin in the community orchestra</p>
+      <p>Played in 17 concerts with this orchestra over the span of 4 years</p>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-links">
+      <p><a href="/RebeccaElliceHsiaoResume.pdf" download>Resume</a></p>
+      <p><a href="mailto:youremailaddress">rebeccaellicehsiao@gmail.com</a></p>
+      <p>310-531-6207</p>
+    </div>
+  </div>
+</div>
