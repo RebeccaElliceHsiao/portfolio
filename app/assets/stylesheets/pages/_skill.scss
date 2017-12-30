@@ -1,0 +1,38 @@
+#background-skill {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), image-url('tokyo2.jpg') 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  min-height: 100vh;
+}
+
+#me-skill {
+  opacity: 0;
+  height: 160px;
+  width: 160px;
+  border-radius: 80px;
+  margin: 0 auto;
+  background:  image-url('myface3.jpg') center;
+  background-size: cover;
+  border: 2px white solid;
+  margin-top: -80px;
+  position: relative;
+    -webkit-animation: fadein .5s ease-in .8s forwards;
+       -moz-animation: fadein .5s ease-in .8s forwards;
+        -ms-animation: fadein .5s ease-in .8s forwards;
+         -o-animation: fadein .5s ease-in .8s forwards;
+            animation: fadein .5s ease-in .8s forwards;
+}
+
+#me-skill:after {
+  content: '';
+  position: absolute;
+  border-radius: 800px;
+  border: 2px solid #fff;
+
+   -webkit-animation: boop .3s ease-out 1.2s forwards;
+       -moz-animation: boop .3 ease-out 1.2s forwards;
+        -ms-animation: boop .3 ease-out 1.2s forwards;
+         -o-animation: boop .3 ease-out 1.2s forwards;
+            animation: boop .3 ease-out 1.2s forwards;
+}

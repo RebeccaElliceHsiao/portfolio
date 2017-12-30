@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/profile_test.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
+  </head>
+  <body>
+    <div class="sheath">
+    <div id="body-wrapper">
+
+      <div class="blurry"></div>
+      <div class='my_navbar navbar-fixed-top'>
+        <div class="text-left logo">
+        </div>
+        <div class="buttons_and_avatar navbar-right">
+        <%#= image_tag "MyFace.jpg", class: 'img-circle avatar_profile', height: '90%' %>
+          <ul class="list-inline nav_buttons">
+             <li><%= link_to "Home", index_path %></li>
+             <li>|</li>
+             <li><%= link_to "About Me", about_path %></li>
+             <li>|</li>
+             <li><li><%= link_to "Experience", experience_path %></li></li>
+             <li>|</li>
+             <li><li><%= link_to "Skill", skill_path %></li></li>
+          </ul>
+        </div>
+      </div>
+      <%= yield %>
+
+    </div>
+    </div>
+
+  </body>
+</html>
