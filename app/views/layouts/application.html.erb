@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/profile_test.css">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- Use the title from a page's frontmatter if it has one -->
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
   </head>
@@ -14,24 +13,9 @@
     <div class="sheath">
     <div id="body-wrapper">
         <div class='my_navbar navbar-fixed-top'>
-
-
-
-<!--   <div class="navbar-wagon-right hidden-xs hidden-sm">
-  <div class="hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Some mobile link</a></li>
-        <li><a href="#">Other one</a></li>
-        <li><a href="#">Other one</a></li>
-      </ul>
-    </div>
-  </div> -->
         <div class="text-left logo">
         </div>
         <div class="buttons_and_avatar navbar-right">
-        <%#= image_tag "MyFace.jpg", class: 'img-circle avatar_profile', height: '90%' %>
           <ul class="list-inline nav_buttons hidden-xs hidden-sm">
              <li><%= link_to "Home", index_path %></li>
              <li>|</li>
