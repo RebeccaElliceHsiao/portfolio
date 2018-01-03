@@ -100,6 +100,19 @@ a:hover {
   height: calc(2em);
   background: rgb(141,149,167);
 }
+
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background: black;
+    opacity: 0;
+}
+
 .ninety { width: 0%;
   -webkit-animation: ninety .5s ease-in-out 4s forwards;
        -moz-animation: ninety .5s ease-in-out 4s forwards;
@@ -416,6 +429,48 @@ a {
         -ms-animation: boop .3 ease-out 1.2s forwards;
          -o-animation: boop .3 ease-out 1.2s forwards;
             animation: boop .3 ease-out 1.2s forwards;
+}
+
+
+@media all and (max-width: 768px) {
+  .name {
+    font-size: 1.6em;
+    letter-spacing: 5px;
+  }
+
+  .tricks{
+    max-width: calc(100% - 40px);
+  }
+
+  .skills {
+    text-align: left;
+    .a {
+      width: 100%;
+    }
+    .b {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  }
+
+  .dot {
+    width: calc(100% - 40px);
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .stove {
+    margin: 20px;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
 }
 
 @keyframes fadein {
