@@ -15,4 +15,3 @@ node_modules
 /public/packs-test
 /node_modules
 /node_modules/*
-/db/db.js
