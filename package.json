@@ -1,13 +1,36 @@
 {
-  "name": "RebeccaElliceHsiao",
+  "name": "rebeccaellicehsiao",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.2.0",
+    "body-parser": "^1.18.2",
     "bootstrap": "3",
     "coffeescript": "1.12.7",
-    "jquery": "^3.2.1"
+    "express": "^4.16.3",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.33"
+  },
+  "scripts": {
+    "dev": "nodemon config/server.js"
   },
   "devDependencies": {
+    "nodemon": "^1.17.4",
     "webpack-dev-server": "^2.9.7"
-  }
+  },
+  "description": "Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebeccaElliceHsiao/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RebeccaElliceHsiao/portfolio/issues"
+  },
+  "homepage": "https://github.com/RebeccaElliceHsiao/portfolio#readme"
 }
