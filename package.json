@@ -12,7 +12,8 @@
     "npm": "^6.0.0"
   },
   "scripts": {
-    "dev": "nodemon config/server.js"
+    "dev": "nodemon config/server.js",
+    "node config/server.js"
   },
   "devDependencies": {
     "nodemon": "^1.17.4",
@@ -33,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/RebeccaElliceHsiao/portfolio/issues"
   },
-  "homepage": "https://github.com/RebeccaElliceHsiao/portfolio#readme"
+  "homepage": "https://github.com/RebeccaElliceHsiao/portfolio#readme",
+  "engines": {
+    "node": "6.0.0"
+  }
 }
